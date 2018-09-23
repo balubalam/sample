@@ -30,21 +30,21 @@
 	   <resource>
 		  <directory>src/WEB-INF</directory> 
 		  <includes>
-        <include>*</include>
-      </includes>
+       			 <include>*</include>
+      		  </includes>
 	   </resource>
 	   <resource>
 		  <directory>src/images</directory>
 		  <includes>
-        <include>*</include>
-      </includes>
+       			 <include>*</include>
+     		  </includes>
 	  </resource>
 	   <resource>
 		   <directory>src/META-INF</directory>
 		   <includes>
-        <include>*</include>
-        <include>../*.jsp</include>
-       </includes>
+       			 <include>*</include>
+       			 <include>../*.jsp</include>
+      		   </includes>
 	   </resource>	
    </resources>	 
   </build>
