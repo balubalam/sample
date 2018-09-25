@@ -28,23 +28,22 @@
       </pluginManagement>
 	  <resources>
 	   <resource>
-		  <directory>src/WEB-INF</directory> 
+		  <directory>src/main/webapp/WEB-INF</directory> 
 		  <includes>
        		    <include>*</include>
       		  </includes>
 	   </resource>
 	   <resource>
-		  <directory>src/images</directory>
+		  <directory>src/main/resources/images</directory>
 		  <includes>
        		    <include>*</include>
      		  </includes>
 	  </resource>
 	   <resource>
-		   <directory>src/META-INF</directory>
+		   <directory>src/main/webapp/META-INF</directory>
 		   <includes>
        		      <include>*</include>
-       		      <include>../*.jsp</include>
-      		  </includes>
+       		  </includes>
 	   </resource>	
    </resources>	 
   </build>
